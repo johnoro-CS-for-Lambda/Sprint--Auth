@@ -41,7 +41,7 @@ form label {
   justify-content: space-around;
 }
 
-.nav a {
+.navbar a {
   text-decoration: none;
   color: black;
   display: inline-block;

@@ -7,7 +7,9 @@ class NavBar extends Component {
     return (
       <div>
         <Navbar color="info" expand="md">
-          <NavbarBrand>Dad Jokes</NavbarBrand>
+          <NavbarBrand>
+            <Link to="/jokes">Dad Jokes</Link>
+          </NavbarBrand>
           <Nav>
             <NavItem>
               <Link to="/jokes">Jokes</Link>
