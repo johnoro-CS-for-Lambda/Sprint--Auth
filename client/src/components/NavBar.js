@@ -7,7 +7,7 @@ class NavBar extends Component {
     return (
       <div>
         <Navbar color="info" expand="md">
-          <NavbarBrand tag='div'>
+          <NavbarBrand tag="div">
             <Link to="/jokes">Dad Jokes</Link>
           </NavbarBrand>
           <Nav>
