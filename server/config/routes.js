@@ -27,7 +27,7 @@ function register(req, res) {
     }).end();
   }
   password = bcrypt.hashSync(password, 10);
-  db('users').insert(req.body)
+  db('users').insert({ username, password })
     .then(([ id ]) => {
       const token = generateToken(id, username);
       res.status(201).json({ token });
