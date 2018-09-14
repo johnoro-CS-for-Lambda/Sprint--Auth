@@ -7,7 +7,6 @@ class Jokes extends Component {
   componentDidMount() {
     this.props.getJokes()
       .then(({ data }) => {
-        console.log(data)
         this.setState({ jokes: data });
       })
       .catch(err => console.error(err));
